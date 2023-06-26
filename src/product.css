@@ -1,0 +1,90 @@
+body {
+    background-image: linear-gradient(to bottom right, #cecade, #7650fc);
+    background-attachment: fixed;
+}
+
+
+.App{
+    box-sizing: border-box;
+    font-family: "Helvetica" sans-serif;
+}
+
+.product-list{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.product {
+  border: 1.8px solid rgb(179, 178, 178);
+  border-radius: 4px;
+  padding: 16px;
+  margin: 60px 30px;
+  align-items: center;
+  max-width: 25%;
+  max-height: auto;
+  background: #fcfbf4;
+  text-align: center;
+  line-height: 30px;
+  border-radius: 10px;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    padding: 50px;
+    color: whitesmoke;
+}
+
+.product h3 {
+  margin-top: 0;
+  color: #704ae1;
+}
+
+.category {
+  color: #888;
+}
+
+.description {
+  margin-bottom: 8px;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.cart-button {
+  background-color: #586ee0;
+  color: white;
+  border: 1px solid rgb(179, 178, 178);
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.cart-button:hover {
+  background-color: #977bfb;
+}
+
+.button{
+    text-align: center;
+}
+
+.button button{
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(179, 178, 178);
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.button input{
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid rgb(179, 178, 178);
+}
